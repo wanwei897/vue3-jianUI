@@ -1,24 +1,6 @@
-# jianui
+介绍：vue3组件库
 
-## Project setup
-```
-npm install
-```
+状态：仍在建设中...内容很少，还保留有其他开发文件
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+使用：下载assets , components 文件夹以及 jian-ui.js 文件
+然后在项目里全局导入jianUI： import jianUI from 'xxx/jian-ui'

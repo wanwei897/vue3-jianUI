@@ -1,0 +1,66 @@
+.jian_message {
+  position: absolute;
+  top: -45px;
+  left: calc(50% - 115px);
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 45px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0;
+}
+.jian_message i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 18px;
+  margin-right: 8px;
+  background-size: 100% 100%;
+}
+.jian_message span {
+  height: 20px;
+  line-height: 20px;
+}
+
+/* type: normal */
+.jian_message_normal{
+  background: #edf0f3;
+  border: 1px solid #e6e9f3;
+  color: #7e8086;
+}
+.jian_message_normal i {
+  background: url('../../image/message/message_normal.png');
+}
+
+/* type: success */
+.jian_message_success{
+  background: #d8f0dc;
+  border: 1px solid #cde9c4;
+  color: #24c90f;
+}
+.jian_message_success i {
+  background: url('../../image/message/message_success.png');
+}
+
+/* type: error */
+.jian_message_error{
+  background: #f0e3e0;
+  border: 1px solid #f3d8d8;
+  color: #e96443;
+}
+.jian_message_error i {
+  background: url('../../image/message/message_error.png');
+}
+
+/* type: warn */
+.jian_message_warn{
+  background: #f8eddc;
+  border: 1px solid #eee5d9;
+  color: #e9801e;
+}
+.jian_message_warn i {
+  background: url('../../image/message/message_warn.png');
+}
+
