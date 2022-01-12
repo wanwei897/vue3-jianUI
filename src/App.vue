@@ -1,13 +1,11 @@
 <template>
   <div class="appWrap">
-    <jian-loading v-if="true"></jian-loading>
+    <span class="showName" v-for="item in 50" :key="item">
+      {{jianUI.faker.getName()}} 
+      {{jianUI.faker.getAge()}} 
+      {{jianUI.faker.getAddress()}} 
+    </span>
   </div>
-  <jian-swipe></jian-swipe>
-  <button @click="showMessage">点击提示</button>
-  <!-- <div class="messageBox xxx">
-    <i></i>
-    <span>这是消息提示!</span>
-  </div> -->
 </template>
 
 <script>
@@ -26,13 +24,11 @@ export default {
     }
   },
   methods: {
-    showMessage(){
-      this.jianUI.message('xx', '')
-    }
   },
   created() {
   },
   mounted() {
+    console.log(this.jianUI.faker.getName())
   }
 }
 </script>
@@ -57,9 +53,12 @@ li{
 .appWrap{
   position: relative;
   border: 1px solid #ac7d11;
-  width: 400px;
-  height: 200px;
   white-space: normal;
   margin: 40px 40px;
+}
+.showName{
+  display: inline-block;
+  background: rgb(223, 177, 177);
+  margin-left: 10px;
 }
 </style>
