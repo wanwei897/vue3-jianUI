@@ -1,4 +1,4 @@
-import $ from 'jquery'
+import $ from '../../plugins/jquery.min.js'
 import '@assets/css/message/message.css'
 
 /*

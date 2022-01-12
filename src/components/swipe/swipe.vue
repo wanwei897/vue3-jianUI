@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import $ from 'jquery'
+import $ from '../../plugins/jquery.min.js'
 export default {
   name: 'jian-swipe',
   data(){
