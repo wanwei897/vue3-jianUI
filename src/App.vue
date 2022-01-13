@@ -4,6 +4,9 @@
       {{jianUI.faker.getName()}} 
       {{jianUI.faker.getAge()}} 
       {{jianUI.faker.getAddress()}} 
+      {{jianUI.faker.getDate()}} 
+      {{jianUI.faker.getEmail()}} 
+      {{jianUI.faker.getTelephone()}} 
     </span>
   </div>
 </template>
@@ -28,7 +31,6 @@ export default {
   created() {
   },
   mounted() {
-    console.log(this.jianUI.faker.getName())
   }
 }
 </script>

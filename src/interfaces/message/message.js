@@ -1,5 +1,5 @@
 import $ from '../../plugins/jquery.min.js'
-import '@assets/css/message/message.css'
+import '../../assets/css/message/message.css'
 
 /*
 消息提示框

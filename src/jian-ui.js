@@ -16,6 +16,22 @@ let jianUI = {
     componentsArr.forEach(i => {
       app.component(i.name, i)
     })
+    // 控制台打印信息jianUI信息
+    console.log('%c jianUI %c wanwei897 ',`
+      color: #fff;
+      background-color: blue;
+      line-height: 20px;
+      height: 20px;
+      border-radius: 5px 0 0 5px;
+      font-size: 15px;
+    `,`
+      color: #fff;
+      background-color: orange;
+      line-height: 20px;
+      height: 20px;
+      border-radius: 0 5px 5px 0;
+      font-size: 15px;
+    `)
   },
   message: Message, //消息提示框
   faker: Faker, //假数据
