@@ -6,6 +6,7 @@ import SwipeCard from './components/swipe/swipeCard.vue'
 // 接口
 import Message from './interfaces/message/message.js'
 import Faker from './interfaces/faker/faker.js'
+import Worker from './interfaces/worker/worker.js'
 
 // 将导入的组件和函数分别存入一个数组
 let componentsArr = [Loading, Swipe, SwipeCard]
@@ -35,6 +36,7 @@ let jianUI = {
   },
   message: Message, //消息提示框
   faker: Faker, //假数据
+  worker: Worker, //web worker
 }
 
 

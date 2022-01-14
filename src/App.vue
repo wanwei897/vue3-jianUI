@@ -31,6 +31,16 @@ export default {
   created() {
   },
   mounted() {
+    var myWorker = this.jianUI.worker.createWorker(() => {
+      self.onmessage = (e) => {
+        console.log(e.data)
+        if(e.data === 'Are you ready?') {
+          console.log('Im ready.');
+          self.close();
+        }
+      }
+    })
+    myWorker.postMessage('Are you ready?')
   }
 }
 </script>
